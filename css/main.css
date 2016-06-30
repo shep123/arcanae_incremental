@@ -1,0 +1,97 @@
+/***********/
+/* FONTS
+/***********/
+
+
+
+
+/***********/
+/* STRUCTURE
+/***********/
+.bugs {
+	background-color:#ddd;
+	position:absolute;
+	bottom:0;
+	height:100px;
+	padding:10px 0;
+	overflow:scroll;
+}
+
+.click-bar { 
+	padding:15px 0;
+	border-bottom:1px dotted #ccc;
+}
+.day-display {
+	padding:6px;
+}
+
+.totals-column {
+	padding: 0 15px 0 0;
+	border-right:1px dotted #ccc;
+}
+
+.upgrades, .story {
+	padding:15px;
+}
+.journal {
+	position:relative;
+	height:350px;
+  overflow-y:scroll;
+}
+.bookkeeping ul, .library ul, .journal ul, .story ul {
+	list-style-type: none;
+	margin:7px 0;
+	padding:0;
+}
+.journal ul li {
+	padding:3px;
+}
+.journal ul li:nth-child(even) {
+	background-color:#fbfbfb;
+}
+
+.display-gradient {
+	background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+	position:absolute;
+	width:100%;
+	height:100%;
+	bottom:0;
+	left:0;
+  border:1px solid red;
+}
+button#btn_meditate, button#btn_study, button#btn_explore {
+	position:relative;
+	/*-moz-outline:0 none;
+	-webkit-outline:0 none;
+	outline:0 none;*/
+}
+div.cooldown {
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	width:0px;
+	height:100%;
+	background:rgba(200,200,200,0.5);
+}
+
+/***********/
+/* TYPOGRAPHY
+/***********/
+
+
+
+.ui-progressbar {
+	float:left;
+	width:200px; 
+}
+.ui-progressbar span {
+	position:absolute;
+	top:5px;
+	left:20px;
+}
+
+/*.ui-progressbar-value {
+  transition: width 0.5s;
+  -webkit-transition: width 0.5s;
+}*/
